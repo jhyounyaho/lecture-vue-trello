@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import { board } from '../api/index.js'
 
 export default {
   data() {
@@ -30,12 +30,9 @@ export default {
   methods: {
     fetchData() {
       this.loading = true
-      axios.get('http://localhost:3000/boards')
+      board.fetch()
         .then(res => {
-          this.boards = res.data
-        })
-        .catch(res => {
-          this.$router.replace('/login')
+          this.boards = res
         })
         .finally(_=> {
           this.loading = false
