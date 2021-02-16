@@ -43,6 +43,7 @@ board 생성
 board 삭제              
 배경색 변경                 
 ![7](https://user-images.githubusercontent.com/42309919/108061751-1be2f580-709c-11eb-8e8c-9d8403309b5d.PNG)
+![8](https://user-images.githubusercontent.com/42309919/108062810-a5df8e00-709d-11eb-989a-ba0d3aec829a.PNG)
 
 ## API List
 #### Helath
